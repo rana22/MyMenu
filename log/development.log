@@ -700,3 +700,198 @@ Processing by MainController#about as HTML
 Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 2912)
 
 
+Started GET "/" for 127.0.0.1 at 2023-10-05 23:56:55 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.8ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 62.7ms | Allocations: 24358)
+Completed 500 Internal Server Error in 78ms (ActiveRecord: 0.0ms | Allocations: 28438)
+
+
+  
+ActionView::Template::Error (Missing partial header/_header with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/ambarrana/Documents/github/ruby/MyMenu/app/views"
+  * "/Users/ambarrana/.rvm/gems/ruby-3.1.4/gems/turbo-rails-1.4.0/app/views"
+  * "/Users/ambarrana/.rvm/rubies/ruby-3.1.4/lib/ruby/gems/3.1.0/gems/actiontext-7.0.8/app/views"
+  * "/Users/ambarrana/.rvm/rubies/ruby-3.1.4/lib/ruby/gems/3.1.0/gems/actionmailbox-7.0.8/app/views"
+
+Did you mean?  layouts/action_text/contents/content
+               action_text/attachment_galleries/attachment_gallery
+               active_storage/blobs/blob
+               action_text/attachables/remote_image
+               action_text/contents/content
+               action_text/attachables/missing_attachable):
+    10:     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    11:   </head>
+    12:   
+    13:   <%= render 'header/header' %>
+    14:   <body>  
+    15:     <div class="container">
+    16:       <%= yield %>
+  
+app/views/layouts/application.html.erb:13
+Started GET "/" for 127.0.0.1 at 2023-10-05 23:57:11 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 3018)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 3959)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-05 23:58:27 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 16.4ms | Allocations: 3407)
+Completed 200 OK in 23ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 4315)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:02:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 334)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 146)
+  Rendered layout layouts/application.html.erb (Duration: 673.2ms | Allocations: 98013)
+Completed 200 OK in 692ms (Views: 678.1ms | ActiveRecord: 0.0ms | Allocations: 102053)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:02:44 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 9)
+  Rendered header/_header.html.erb (Duration: 0.0ms | Allocations: 10)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2837)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3133)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:05:21 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 36.8ms | Allocations: 8308)
+  Rendered layout layouts/application.html.erb (Duration: 46.9ms | Allocations: 11605)
+Completed 500 Internal Server Error in 52ms (ActiveRecord: 0.0ms | Allocations: 12509)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `current_user' for #<ActionView::Base:0x0000000000b540>
+
+'.freeze;         if current_user 
+                     ^^^^^^^^^^^^
+Did you mean?  current_page?):
+    15:         <% end %>
+    16:       </ul>
+    17:       <ul class="navbar-nav ms-auto">
+    18:         <% if current_user %>
+    19:           <li class="nav-item dropdown">
+    20:             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+    21:               <div class="fa fa-user"></div>
+  
+app/views/header/_header.html.erb:18
+app/views/layouts/application.html.erb:13
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:05:32 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 1.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 18.3ms | Allocations: 3421)
+Completed 200 OK in 28ms (Views: 26.2ms | ActiveRecord: 0.0ms | Allocations: 4323)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:06:52 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 181)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 3478)
+Completed 200 OK in 14ms (Views: 12.6ms | ActiveRecord: 0.0ms | Allocations: 4386)
+
+
+Started GET "/" for 127.0.0.1 at 2023-10-06 00:14:08 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 120)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3427)
+Completed 200 OK in 19ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 4329)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-10-06 00:14:17 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.7ms | Allocations: 101)
+  Rendered header/_header.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.9ms | Allocations: 2743)
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.0ms | Allocations: 3054)
+
+
+Started GET "/home/about" for 127.0.0.1 at 2023-10-06 00:14:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/home/about"):
+  
+Started GET "/home/about" for 127.0.0.1 at 2023-10-06 00:17:23 -0400
+  
+NameError (undefined local variable or method `with' for ApplicationController:Class
+
+    protect_from_forgery with::exception
+                         ^^^^):
+  
+app/controllers/application_controller.rb:2:in `<class:ApplicationController>'
+app/controllers/application_controller.rb:1:in `<main>'
+Started GET "/home/about" for 127.0.0.1 at 2023-10-06 00:22:23 -0400
+Processing by ErrorController#PageNotfound as HTML
+  Parameters: {"unmatched"=>"home/about"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotfound.html.erb within layouts/application
+  Rendered error/PageNotfound.html.erb within layouts/application (Duration: 0.7ms | Allocations: 124)
+  Rendered header/_header.html.erb (Duration: 1.0ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 3423)
+Completed 200 OK in 12ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 4444)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-10-06 00:22:35 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.3ms | Allocations: 122)
+  Rendered header/_header.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 3051)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 3797)
+
+
+Started GET "/about" for 127.0.0.1 at 2023-10-06 00:23:43 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 126)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 3419)
+Completed 200 OK in 10ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 4440)
+
+
+Started GET "/about/sdkfls" for 127.0.0.1 at 2023-10-06 00:23:47 -0400
+Processing by ErrorController#PageNotFound as HTML
+  Parameters: {"unmatched"=>"about/sdkfls"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.8ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 3049)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 3792)
+
+
