@@ -4,12 +4,6 @@
   padding: 15px 45px 0px 45px;
 }
 
-.logo_img {
-  width: 120px;
-  height: 120px;
-  margin-bottom: -55px;
-}
-
 .nav-item-link {
   color: #000;
 }
@@ -18,15 +12,43 @@
   color: #000;
 }
 
-@media (max-width: 768px) {
-  .logo_img
-      {
-          position: absolute;
-          width: 45px;
-          height: 45px;
-          left: 50%;
-          transform: translateX(-50%);
-          text-align: center;
-      }
+
+@media (max-width: 576px) {  
+  .logo_img {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 45%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 767px) {  
+  .logo_img {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    left: 45%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) { 
+  .logo_img {
+    width: 110px;
+    height: 110px;
+    margin-left: 25px;
+    margin-bottom: -35px;
+  }
 }
   
