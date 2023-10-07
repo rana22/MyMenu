@@ -1,0 +1,19 @@
+.custom-nav-bar {
+  border-bottom: 2px solid #090909b5;
+  height: 75px;
+  padding: 15px 45px 0px 45px;
+}
+
+.logo_img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: -55px;
+}
+
+.nav-item-link {
+  color: #000;
+}
+
+.nav-item-link:hover {
+  color: #000;
+}
