@@ -47,6 +47,8 @@ gem "bootsnap", require: false
 
 gem 'jquery-rails'
 
+gem "sassc-rails"
+
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -75,3 +77,5 @@ group :test do
   gem "selenium-webdriver"
 
 end
+
+gem "importmap-rails", "~> 1.2"
