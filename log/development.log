@@ -3618,3 +3618,223 @@ Processing by MainController#home as HTML
 Completed 200 OK in 14ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 4332)
 
 
+Started GET "/home" for ::1 at 2023-10-07 15:00:59 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 129)
+  Rendered header/_header.html.erb (Duration: 2.7ms | Allocations: 923)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 4998)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.0ms | Allocations: 5910)
+
+
+Started GET "/about" for ::1 at 2023-10-07 15:01:01 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 100)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4159)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 4492)
+
+
+Started GET "/menu" for ::1 at 2023-10-07 15:01:02 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4175)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4489)
+
+
+Started GET "/menu" for ::1 at 2023-10-07 15:01:04 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 4063)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 4324)
+
+
+Started GET "/about" for ::1 at 2023-10-07 15:01:05 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.8ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 4091)
+Completed 200 OK in 14ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 4352)
+
+
+Started GET "/home" for ::1 at 2023-10-07 15:01:05 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 2.0ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 4046)
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.0ms | Allocations: 4307)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:03:01 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.4ms | Allocations: 98)
+  Rendered header/_header.html.erb (Duration: 1.4ms | Allocations: 668)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4142)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 4455)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:03:48 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.5ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 2.3ms | Allocations: 990)
+  Rendered layout layouts/application.html.erb (Duration: 10.1ms | Allocations: 5054)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.0ms | Allocations: 5959)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:03:50 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 6.8ms | Allocations: 4091)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4370)
+
+
+Started GET "/menu" for ::1 at 2023-10-07 15:03:51 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.4ms | Allocations: 100)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 7.3ms | Allocations: 4194)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 4509)
+
+
+Started GET "/about" for ::1 at 2023-10-07 15:03:52 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.4ms | Allocations: 99)
+  Rendered header/_header.html.erb (Duration: 1.6ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 4205)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4519)
+
+
+Started GET "/home" for ::1 at 2023-10-07 15:03:53 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 97)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 4197)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 4511)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:03:54 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 2.0ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 4090)
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 4351)
+
+
+Started GET "/about" for ::1 at 2023-10-07 15:04:33 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 4.6ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 14.7ms | Allocations: 4108)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 4369)
+
+
+Started GET "/menu" for ::1 at 2023-10-07 15:04:34 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4111)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms | Allocations: 4372)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:04:34 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4111)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.0ms | Allocations: 4372)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:04:52 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.7ms | Allocations: 123)
+  Rendered header/_header.html.erb (Duration: 4.7ms | Allocations: 987)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5040)
+Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 5946)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:06:46 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 709)
+  Rendered layout layouts/application.html.erb (Duration: 24.3ms | Allocations: 5462)
+Completed 200 OK in 25ms (Views: 24.7ms | ActiveRecord: 0.0ms | Allocations: 5739)
+
+
+Started GET "/about" for ::1 at 2023-10-07 15:07:00 -0400
+Processing by MainController#about as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/about.html.erb within layouts/application
+  Rendered main/about.html.erb within layouts/application (Duration: 0.8ms | Allocations: 102)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 708)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 4202)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 4517)
+
+
+Started GET "/home" for ::1 at 2023-10-07 15:07:00 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 98)
+  Rendered header/_header.html.erb (Duration: 2.2ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 4198)
+Completed 200 OK in 18ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 4512)
+
+
+Started GET "/menu" for ::1 at 2023-10-07 15:07:01 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.8ms | Allocations: 100)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 4185)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 4499)
+
+
+Started GET "/contact" for ::1 at 2023-10-07 15:07:01 -0400
+Processing by MainController#contact as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/contact.html.erb within layouts/application
+  Rendered main/contact.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 3.6ms | Allocations: 706)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 4082)
+Completed 200 OK in 15ms (Views: 14.5ms | ActiveRecord: 0.0ms | Allocations: 4343)
+
+

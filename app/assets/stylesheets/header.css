@@ -30,11 +30,8 @@
 /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
 @media (max-width: 767px) {  
   .logo_img {
-    position: absolute;
     width: 70px;
     height: 70px;
-    left: 45%;
-    transform: translateX(-50%);
     text-align: center;
   }
   .nav-bar-container {
