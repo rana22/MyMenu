@@ -17,3 +17,16 @@
 .nav-item-link:hover {
   color: #000;
 }
+
+@media (max-width: 768px) {
+  .logo_img
+      {
+          position: absolute;
+          width: 45px;
+          height: 45px;
+          left: 50%;
+          transform: translateX(-50%);
+          text-align: center;
+      }
+}
+  
