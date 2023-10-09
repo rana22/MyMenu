@@ -1,0 +1,91 @@
+/* line 1, app/assets/stylesheets/header.scss */
+.custom-nav-bar {
+  border-bottom: 2px solid #090909b5;
+  height: 75px;
+  padding: 15px 45px 0px 45px;
+}
+
+@media (max-width: 576px) {
+  /* line 8, app/assets/stylesheets/header.scss */
+  .logo_img {
+    width: 15px;
+    height: 15px;
+    text-align: center;
+  }
+  /* line 13, app/assets/stylesheets/header.scss */
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+  /* line 16, app/assets/stylesheets/header.scss */
+  .nav-item {
+    font-size: 20px;
+    font-family: 'prox-nova-condensed-bold';
+  }
+  /* line 20, app/assets/stylesheets/header.scss */
+  .nav-item a:hover {
+    color: #ed0008;
+  }
+}
+
+/* line 28, app/assets/stylesheets/header.scss */
+.active a {
+  color: #ed0008;
+}
+
+/* line 30, app/assets/stylesheets/header.scss */
+.active a:hover {
+  color: #ed0008;
+}
+
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 767px) {
+  /* line 38, app/assets/stylesheets/header.scss */
+  .logo_img {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+  }
+  /* line 43, app/assets/stylesheets/header.scss */
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) {
+  /* line 50, app/assets/stylesheets/header.scss */
+  .nav-item {
+    font-size: 22px;
+    font-family: 'prox-nova-condensed-bold';
+  }
+  /* line 54, app/assets/stylesheets/header.scss */
+  .nav-item a:hover {
+    color: #ed0008;
+  }
+  /* line 59, app/assets/stylesheets/header.scss */
+  .logo_img {
+    width: 110px;
+    height: 110px;
+    margin-left: 25px;
+    margin-bottom: -35px;
+  }
+  /* line 65, app/assets/stylesheets/header.scss */
+  .nav-item:nth-child(-n + 3) > a:after {
+    content: '*';
+    line-height: 1.2em;
+    color: #ed0008;
+    font-size: 23px;
+    vertical-align: -17%;
+    padding-left: 25px;
+  }
+}
+
+/* line 75, app/assets/stylesheets/header.scss */
+.nav-item-home {
+  padding-right: 10px;
+}
+
+/* line 79, app/assets/stylesheets/header.scss */
+.nav-item-menu {
+  padding-left: 0px;
+}

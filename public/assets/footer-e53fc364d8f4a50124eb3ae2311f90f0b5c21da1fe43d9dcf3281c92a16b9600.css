@@ -1,0 +1,71 @@
+/* line 2, app/assets/stylesheets/footer.scss */
+.mainfooter {
+  background-color: #232222;
+  padding: 20px 0px 20px 0px;
+  color: #fff;
+  font-family: "prox-nova-alt-extra-condensed-thin";
+}
+
+/* line 9, app/assets/stylesheets/footer.scss */
+.funky_fires {
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* line 16, app/assets/stylesheets/footer.scss */
+.right_reserved {
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+/* line 23, app/assets/stylesheets/footer.scss */
+.social_media_links {
+  padding-top: 5px;
+}
+
+/* line 27, app/assets/stylesheets/footer.scss */
+.web_link {
+  color: #000;
+}
+
+/* line 31, app/assets/stylesheets/footer.scss */
+.yt_logo {
+  width: 35px;
+  height: 35px;
+  background: transparent;
+}
+
+/* line 37, app/assets/stylesheets/footer.scss */
+.fb_logo {
+  font-size: 35px;
+  color: #32589a;
+  margin-right: 15px;
+}
+
+/* line 43, app/assets/stylesheets/footer.scss */
+.inta_logo {
+  font-size: 35px;
+  color: #e4116c;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* line 50, app/assets/stylesheets/footer.scss */
+.google_logo {
+  font-size: 35px;
+  color: #dd2c2c;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+/* line 57, app/assets/stylesheets/footer.scss */
+.yelp_logo {
+  font-size: 30px;
+  color: #eb3a2d;
+  margin-right: 15px;
+  margin-left: 15px;
+}

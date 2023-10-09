@@ -1,5 +1,7 @@
 class MainController < ApplicationController
   def home
+    puts "hello world"
+    Rails.application.config.assets.paths
   end
 
   def about
