@@ -9,12 +9,15 @@
          <li class="nav-item nav-item-home <%= 'active' if current_page?('/home') %>">
             <%= link_to "HOME", home_path, class: "nav-link" %>
          </li>
+         <div class="vertical-line"></div>
          <li class="nav-item nav-item-menu  <%= 'active' if current_page?('/menu') %>">
             <%= link_to "MENU", menu_path, class: "nav-link" %>
          </li>
+         <div class="vertical-line"></div>
          <li class="nav-item nav-item-about <%= 'active' if current_page?('/about') %>">
             <%= link_to "ABOUT", about_path, class: "nav-link" %>
          </li>
+         <div class="vertical-line"></div>
          <li class="nav-item nav-item-contact <%= 'active' if current_page?('/contact') %>">
             <%= link_to "CONTACT", contact_path, class: "nav-link" %>
          </li>
