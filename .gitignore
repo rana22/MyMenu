@@ -7,6 +7,6 @@ test/**
 !/app/assets/builds/.keep
 
 /node_modules
-/public
+/public/**
 public/**
 public/assets/**
