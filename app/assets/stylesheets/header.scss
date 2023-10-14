@@ -1,0 +1,109 @@
+.custom-nav-bar {
+  border-bottom: 2px solid #090909b5;
+  height: 75px;
+  padding: 15px 45px 0px 45px;
+}
+
+@media (max-width: 576px) {  
+  .logo_img {
+    width: 75px;
+    text-align: center;
+  }
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+  .nav-item {
+    font-size: 20px;
+    letter-spacing: .2rem;
+    font-family: 'cuanky-demo-regular';
+    a {
+      &:hover {
+        color: #ed0008;
+      }
+    }
+  }
+}
+
+.active {
+  padding: 0px 20px 0px 20px;
+  a {
+    color: #ed0008;
+    letter-spacing: .2rem;
+    border-bottom: 3px solid #ed0008;
+    &:hover {
+      color: #ed0008;
+      border-bottom: 3px solid #ed0008;
+    }
+  }
+}
+ 
+/* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+@media (max-width: 767px) {  
+  .logo_img {
+    width: 120px;
+    text-align: center;
+  }
+  .nav-bar-container {
+    margin-top: 50px;
+  }
+  .nav-item {
+    font-size: 20px;
+    letter-spacing: .2rem;
+    text-align: center;
+    font-family: 'cuanky-demo-regular';
+    padding: 0px 20px 0px 20px;
+    a {
+      &:hover {
+        color: #ed0008;
+      }
+    }
+  }
+  .vertical-line{
+    display: none;
+  }
+
+}
+ 
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 768px) { 
+  .nav-item {
+    font-size: 27px;
+    letter-spacing: .2rem;
+    font-family: 'cuanky-demo-regular';
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    a {
+      &:hover {
+        color: #ed0008;
+        border-bottom: 3px solid #ed0008;
+      }
+    }
+  }
+  .logo_img {
+    width: 180px;
+    margin-bottom: -75px;
+    margin-left: 50px;
+  }
+  // .nav-item:nth-child(-n + 3)>a:after {
+  //   content: '|';
+  //   margin-left: 25px;
+  //   color: #261d1d;
+  // }
+  /** vertical line */
+  .vertical-line{
+    width: 3px;
+    background-color: rgb(59, 59, 59);
+    height: 25px;
+    /* float: left; */
+    margin-top: 13px;
+  }
+}
+
+.nav-item-home {
+  padding-right: 10px;
+}
+
+.bff_navbar {
+  z-index: 100;
+}
+
