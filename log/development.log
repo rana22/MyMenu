@@ -15253,3 +15253,1148 @@ Processing by ErrorController#PageNotFound as */*
 Completed 200 OK in 18ms (Views: 17.0ms | ActiveRecord: 0.0ms | Allocations: 2261)
 
 
+Started GET "/menu" for ::1 at 2023-10-13 20:03:05 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 8.4ms | Allocations: 101)
+  Rendered header/_header.html.erb (Duration: 4.4ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 1295)
+Completed 200 OK in 39ms (Views: 36.7ms | ActiveRecord: 0.0ms | Allocations: 1621)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:03:05 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 2.5ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.9ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 12.8ms | Allocations: 1190)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 1433)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:03:06 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.1ms | Allocations: 1326)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.0ms | Allocations: 1573)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:03:06 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.7ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 27.5ms | Allocations: 1172)
+Completed 200 OK in 29ms (Views: 28.4ms | ActiveRecord: 0.0ms | Allocations: 1413)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:08:00 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 999)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.7ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3535)
+Completed 200 OK in 35ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 7610)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:08:01 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 1580)
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.0ms | Allocations: 2408)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:08:04 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 249)
+  Rendered header/_header.html.erb (Duration: 1.8ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1416)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 1682)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:08:05 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 1170)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 1414)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:10:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 997)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 1.2ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 3521)
+Completed 200 OK in 25ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7596)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:10:27 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 2.4ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 1574)
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.0ms | Allocations: 2402)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:13:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 997)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.5ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 3539)
+Completed 200 OK in 24ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 7614)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:13:45 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 1583)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:13:49 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 249)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1425)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1691)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:13:51 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1178)
+Completed 200 OK in 6ms (Views: 5.7ms | ActiveRecord: 0.0ms | Allocations: 1419)
+
+
+Started GET "/menu" for ::1 at 2023-10-13 20:13:52 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 1274)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1587)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:13:52 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 11.7ms | Allocations: 1184)
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.0ms | Allocations: 1425)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:13:53 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 249)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1403)
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 1652)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:13:53 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1181)
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 1422)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:18:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 997)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3524)
+Completed 200 OK in 26ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 7599)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:20:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 9.9ms | Allocations: 1846)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 1957)
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms | Allocations: 5976)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <%
+=begin%>
+ <div class="container">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+
+        <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <%= link_to(image_tag("famous.jpg", class: "slider_img"), home_path) %>
+            </div>
+            <div class="carousel-item">
+                <%= link_to(image_tag("select_bff_logo.png", class: "slider_img"), home_path) %>
+            </div>
+            <div class="carousel-item">
+                <%= link_to(image_tag("ckn_sandwich.png", class: "slider_img"), home_path) %>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+
+    </div>
+</div> 
+<%
+=end%>
+
+
+<%
+=begin%>
+ <% home = Home.new %>
+<%= carousel_for(home.image_urls) %> 
+<%
+=end%>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <%= image_tag("banner.jpeg", class: "slider_img d-block w-100") %>
+      </div>
+      <div class="carousel-item">
+        <%= image_tag("ckn_sandwich.png", class: "slider_img d-block w-100") %>
+      </div>
+      <%
+      <div class="carousel-item">
+        <%= image_tag("onion_rings.jpeg", class: "slider_img d-block w-100") %>
+      </div>
+        <%= image_tag("bff_famous.jpeg", class: "slider_img d-block w-100") %>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+):
+1:    <%
+2:    =begin%>
+3:     <div class="container">
+4:        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+5:    
+6:            <ol class="carousel-indicators">
+7:            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+8:            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+9:            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+10:            </ol>
+11:            <div class="carousel-inner">
+12:                <div class="carousel-item active">
+13:                    <%= link_to(image_tag("famous.jpg", class: "slider_img"), home_path) %>
+14:                </div>
+15:                <div class="carousel-item">
+16:                    <%= link_to(image_tag("select_bff_logo.png", class: "slider_img"), home_path) %>
+17:                </div>
+18:                <div class="carousel-item">
+19:                    <%= link_to(image_tag("ckn_sandwich.png", class: "slider_img"), home_path) %>
+20:                </div>
+21:            </div>
+22:            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+23:                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+24:                <span class="sr-only">Previous</span>
+25:            </a>
+26:            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+27:                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+28:                <span class="sr-only">Next</span>
+29:            </a>
+30:    
+31:        </div>
+32:    </div> 
+33:    <%
+34:    =end%>
+35:    
+36:    
+37:    <%
+38:    =begin%>
+39:     <% home = Home.new %>
+40:    <%= carousel_for(home.image_urls) %> 
+41:    <%
+42:    =end%>
+43:    
+44:    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+45:        <div class="carousel-indicators">
+46:            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+47:            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+48:            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+49:            <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="3" aria-label="Slide 4"></button>
+50:        </div>
+51:        <div class="carousel-inner">
+52:    
+53:          <div class="carousel-item active">
+54:            <%= image_tag("banner.jpeg", class: "slider_img d-block w-100") %>
+55:          </div>
+56:          <div class="carousel-item">
+57:            <%= image_tag("ckn_sandwich.png", class: "slider_img d-block w-100") %>
+58:          </div>
+59:          <%
+60:          <div class="carousel-item">
+61:            <%= image_tag("onion_rings.jpeg", class: "slider_img d-block w-100") %>
+62:          </div>
+63:            <%= image_tag("bff_famous.jpeg", class: "slider_img d-block w-100") %>
+64:          </div>
+65:        </div>
+66:        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+67:            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+68:            <span class="visually-hidden">Previous</span>
+69:        </button>
+70:        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+71:            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+72:            <span class="visually-hidden">Next</span>
+73:        </button>
+74:    </div>
+  
+app/views/main/home.html.erb:60: syntax error, unexpected '<', expecting `end'
+app/views/main/home.html.erb:61: syntax error, unexpected '<'
+app/views/main/home.html.erb:60: syntax error, unexpected '<', expecting `end'
+app/views/main/home.html.erb:61: syntax error, unexpected '<'
+app/views/main/home.html.erb:60: syntax error, unexpected '<', expecting `end'
+app/views/main/home.html.erb:61: syntax error, unexpected '<'
+app/views/main/home.html.erb:60: syntax error, unexpected '<', expecting `end'
+app/views/main/home.html.erb:61: syntax error, unexpected '<'
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:20:28 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.8ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 3.1ms | Allocations: 691)
+  Rendered footer/_footer.html.erb (Duration: 0.9ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 17.6ms | Allocations: 2572)
+Completed 200 OK in 22ms (Views: 20.7ms | ActiveRecord: 0.0ms | Allocations: 3355)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:21:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.1ms | Allocations: 928)
+  Rendered header/_header.html.erb (Duration: 2.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.5ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 3455)
+Completed 200 OK in 28ms (Views: 17.8ms | ActiveRecord: 0.0ms | Allocations: 7530)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:21:16 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 1592)
+Completed 200 OK in 8ms (Views: 7.1ms | ActiveRecord: 0.0ms | Allocations: 2420)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:22:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 928)
+  Rendered header/_header.html.erb (Duration: 1.7ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.6ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 13.2ms | Allocations: 3455)
+Completed 200 OK in 25ms (Views: 16.6ms | ActiveRecord: 0.0ms | Allocations: 7530)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:22:22 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.8ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1565)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:24:10 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.6ms | Allocations: 928)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 3440)
+Completed 200 OK in 25ms (Views: 16.5ms | ActiveRecord: 0.0ms | Allocations: 7515)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:24:12 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.7ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 1.6ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 1583)
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:24:15 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 205)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1360)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1626)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:24:16 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1176)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1420)
+
+
+Started GET "/menu" for ::1 at 2023-10-13 20:24:19 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.6ms | Allocations: 1267)
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1576)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:24:19 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 1199)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.0ms | Allocations: 1440)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:24:20 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 205)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.2ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 1368)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 1617)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:24:20 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 1166)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 1407)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:26:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 928)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.7ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.7ms | Allocations: 3452)
+Completed 200 OK in 24ms (Views: 16.0ms | ActiveRecord: 0.0ms | Allocations: 7527)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:26:39 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 3.1ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 1577)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:29:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 3.2ms | Allocations: 927)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 3442)
+Completed 200 OK in 26ms (Views: 17.4ms | ActiveRecord: 0.0ms | Allocations: 7517)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:29:27 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.7ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 1571)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2399)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:30:08 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 927)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.5ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 3454)
+Completed 200 OK in 27ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 7529)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:30:14 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 240)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 295)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1493)
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.0ms | Allocations: 1795)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:30:15 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1580)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2408)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:35:38 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 927)
+  Rendered header/_header.html.erb (Duration: 1.3ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 1.0ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3436)
+Completed 200 OK in 27ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 7511)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:35:39 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.9ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 1583)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:35:42 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 205)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1378)
+Completed 200 OK in 6ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 1644)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:35:43 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 1170)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 1414)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:36:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 859)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 11.8ms | Allocations: 3392)
+Completed 200 OK in 24ms (Views: 15.5ms | ActiveRecord: 0.0ms | Allocations: 7467)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:36:32 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.5ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1562)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2390)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:36:49 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 583)
+  Rendered header/_header.html.erb (Duration: 2.5ms | Allocations: 610)
+  Rendered footer/_footer.html.erb (Duration: 2.5ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 2703)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:36:51 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 134)
+  Rendered header/_header.html.erb (Duration: 1.0ms | Allocations: 334)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 1560)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.0ms | Allocations: 2275)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:39:16 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.7ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 1.0ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 3414)
+Completed 200 OK in 30ms (Views: 17.9ms | ActiveRecord: 0.0ms | Allocations: 7489)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:39:17 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.3ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 1568)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms | Allocations: 2396)
+
+
+Started GET "/menu" for ::1 at 2023-10-13 20:39:36 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 1.0ms | Allocations: 104)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1284)
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.0ms | Allocations: 1615)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:39:36 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 1181)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1422)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:39:37 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 1324)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 1574)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:39:37 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 9.5ms | Allocations: 1188)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 1432)
+
+
+Started GET "/home" for ::1 at 2023-10-13 20:57:49 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 1314)
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.0ms | Allocations: 1558)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 20:57:50 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 2.7ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 1178)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms | Allocations: 1419)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:05:22 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.8ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.4ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.9ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 3390)
+Completed 200 OK in 33ms (Views: 18.4ms | ActiveRecord: 0.0ms | Allocations: 7465)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:05:23 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 2.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 1583)
+Completed 200 OK in 15ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 2411)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:05:45 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.6ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.6ms | Allocations: 3375)
+Completed 200 OK in 24ms (Views: 16.1ms | ActiveRecord: 0.0ms | Allocations: 7450)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:05:47 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.1ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.2ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 1577)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms | Allocations: 2405)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:06:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3384)
+Completed 200 OK in 22ms (Views: 13.6ms | ActiveRecord: 0.0ms | Allocations: 7459)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:06:28 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.7ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1586)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2414)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:09:04 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 10.5ms | Allocations: 3381)
+Completed 200 OK in 21ms (Views: 13.9ms | ActiveRecord: 0.0ms | Allocations: 7456)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:09:06 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.9ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 1565)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:09:54 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.4ms | Allocations: 583)
+  Rendered header/_header.html.erb (Duration: 3.8ms | Allocations: 610)
+  Rendered footer/_footer.html.erb (Duration: 2.9ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 15.9ms | Allocations: 2703)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.0ms | Allocations: 3631)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:09:56 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.8ms | Allocations: 134)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 334)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 1569)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2284)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:10:27 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 3381)
+Completed 200 OK in 27ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 7456)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:10:28 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 1.0ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 6.2ms | Allocations: 1595)
+Completed 200 OK in 13ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 2423)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:12:39 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.6ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.1ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 3378)
+Completed 200 OK in 22ms (Views: 14.3ms | ActiveRecord: 0.0ms | Allocations: 7453)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:12:40 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.8ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.8ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 1565)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2393)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:12:55 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.7ms | Allocations: 1319)
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.0ms | Allocations: 1585)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:12:55 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1173)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 1417)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:13:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.5ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 14.0ms | Allocations: 3399)
+Completed 200 OK in 25ms (Views: 17.3ms | ActiveRecord: 0.0ms | Allocations: 7474)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:13:24 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1574)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2402)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:13:29 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 278)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.9ms | Allocations: 1337)
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 1603)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:13:30 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.6ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 1194)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 1438)
+
+
+Started GET "/menu" for ::1 at 2023-10-13 21:13:32 -0400
+Processing by MainController#menu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/menu.html.erb within layouts/application
+  Rendered main/menu.html.erb within layouts/application (Duration: 0.9ms | Allocations: 104)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 1280)
+Completed 200 OK in 4ms (Views: 3.7ms | ActiveRecord: 0.0ms | Allocations: 1593)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:13:32 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 1190)
+Completed 200 OK in 4ms (Views: 4.1ms | ActiveRecord: 0.0ms | Allocations: 1431)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:13:33 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.5ms | Allocations: 1314)
+Completed 200 OK in 3ms (Views: 3.2ms | ActiveRecord: 0.0ms | Allocations: 1560)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:13:33 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.1ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 1.0ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 1181)
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 1422)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:13:47 -0400
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 161)
+  Rendered header/_header.html.erb (Duration: 0.5ms | Allocations: 277)
+  Rendered footer/_footer.html.erb (Duration: 0.1ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1329)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1573)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:13:48 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.0ms | Allocations: 7)
+  Rendered header/_header.html.erb (Duration: 0.4ms | Allocations: 275)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 8)
+  Rendered layout layouts/application.html.erb (Duration: 2.1ms | Allocations: 1190)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 1431)
+
+
+Started GET "/home" for ::1 at 2023-10-13 21:14:26 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.7ms | Allocations: 860)
+  Rendered header/_header.html.erb (Duration: 1.2ms | Allocations: 689)
+  Rendered footer/_footer.html.erb (Duration: 0.4ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 3387)
+Completed 200 OK in 23ms (Views: 14.4ms | ActiveRecord: 0.0ms | Allocations: 7462)
+
+
+Started GET "/favicon.ico" for ::1 at 2023-10-13 21:14:26 -0400
+Processing by ErrorController#PageNotFound as */*
+  Parameters: {"unmatched"=>"favicon"}
+  Rendering layout layouts/application.html.erb
+  Rendering error/PageNotFound.html.erb within layouts/application
+  Rendered error/PageNotFound.html.erb within layouts/application (Duration: 0.6ms | Allocations: 135)
+  Rendered header/_header.html.erb (Duration: 0.7ms | Allocations: 340)
+  Rendered footer/_footer.html.erb (Duration: 0.0ms | Allocations: 9)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 1574)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2402)
+
+
