@@ -7,13 +7,15 @@
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "fontawesome", "data-turbo-track": "reload" %>
+    <%= stylesheet_link_tag "header" %>
+    <%= stylesheet_link_tag "footer" %>
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
   
   <%= render '/header/header' %>
-  <body>  
-    <div class="container">
-      <%= yield %>
-    </div>
+  <body>
+    <%= yield %>
   </body>
+  <%= render '/footer/footer' %>
 </html>
