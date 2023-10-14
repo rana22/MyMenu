@@ -1,0 +1,49 @@
+<svg width="333" height="169" viewBox="0 0 333 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M72.5966 68.9505C75.091 31.7028 115.823 1.5 166.5 1.5C217.177 1.5 257.909 31.7028 260.403 68.9505C260.419 69.1777 260.232 69.413 259.939 69.413H73.061C72.7679 69.413 72.5814 69.1777 72.5966 68.9505Z" fill="#F5AD41" fill-opacity="0.65" stroke="#FA963A" stroke-width="3"/>
+<path d="M74.2172 112.105L258.417 111.732C259.738 111.729 260.544 112.641 260.501 113.524C260.273 118.29 257.62 123.151 252.741 127.829C247.871 132.498 240.897 136.87 232.325 140.632C215.187 148.153 191.911 153.129 167.049 153.285C142.341 153.44 119.84 149.169 102.869 142.072C85.8075 134.937 74.7086 125.117 72.0779 114.418C71.8109 113.332 72.6874 112.108 74.2172 112.105Z" fill="#F9EDD0" stroke="#F19408" stroke-width="3"/>
+<path d="M70 100.265C70 99.1606 70.8954 98.2652 72 98.2652H262C263.105 98.2652 264 99.1606 264 100.265V107.409C264 108.513 263.105 109.409 262 109.409H167H72C70.8954 109.409 70 108.513 70 107.409V100.265Z" fill="#885A16"/>
+<g filter="url(#filter0_d_6_11)">
+<path d="M71 93.2H262" stroke="#F9CB54" stroke-width="8" stroke-linecap="round"/>
+</g>
+<ellipse cx="0.953034" cy="3.06633" rx="0.953034" ry="3.06633" transform="matrix(0.165071 0.986282 -0.98318 0.182642 159.03 23.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.45866" cy="2.86612" rx="1.45866" ry="2.86612" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 148.299 33.2267)" fill="#FFFAFA"/>
+<ellipse cx="2.81509" cy="1.32848" rx="2.81509" ry="1.32848" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 182.976 31.6286)" fill="#FFFAFA"/>
+<ellipse cx="1.29076" cy="2.79204" rx="1.29076" ry="2.79204" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 84.2406 44.4136)" fill="#FFFAFA"/>
+<ellipse cx="0.918349" cy="2.58438" rx="0.918349" ry="2.58438" transform="matrix(0.749218 0.662323 -0.623006 0.782217 162.22 38.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.49719" cy="2.80109" rx="1.49719" ry="2.80109" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 180.225 48.1591)" fill="#FFFAFA"/>
+<ellipse cx="1.49719" cy="2.80109" rx="1.49719" ry="2.80109" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 202.225 40.1591)" fill="#FFFAFA"/>
+<ellipse cx="163.5" cy="56.7478" rx="1.5" ry="3.5" transform="rotate(180 163.5 56.7478)" fill="#FFFAFA"/>
+<ellipse cx="1.44121" cy="3.18344" rx="1.44121" ry="3.18344" transform="matrix(0.749218 0.662323 -0.623006 0.782217 141.967 54.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.2546" cy="2.69356" rx="1.2546" ry="2.69356" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 106.206 59.0474)" fill="#FFFAFA"/>
+<ellipse cx="1.5753" cy="2.75834" rx="1.5753" ry="2.75834" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 201.227 17.1147)" fill="#FFFAFA"/>
+<ellipse cx="1.14726" cy="3.12446" rx="1.14726" ry="3.12446" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 218.442 35.4952)" fill="#FFFAFA"/>
+<ellipse cx="1.49511" cy="2.62652" rx="1.49511" ry="2.62652" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 236.925 33.9777)" fill="#FFFAFA"/>
+<ellipse cx="1.227" cy="2.36883" rx="1.227" ry="2.36883" transform="matrix(0.749218 0.662323 -0.623006 0.782217 186.952 11.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.723" cy="2.71975" rx="1.723" ry="2.71975" transform="matrix(0.749218 0.662323 -0.623006 0.782217 166.389 8.24782)" fill="#FFFAFA"/>
+<ellipse cx="1.27292" cy="2.30647" rx="1.27292" ry="2.30647" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 174.165 19.645)" fill="#FFFAFA"/>
+<ellipse cx="1.40934" cy="3.39459" rx="1.40934" ry="3.39459" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 214.355 20.776)" fill="#FFFAFA"/>
+<ellipse cx="1.39277" cy="3.14556" rx="1.39277" ry="3.14556" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 199.948 54.5171)" fill="#FFFAFA"/>
+<ellipse cx="1.40319" cy="2.33639" rx="1.40319" ry="2.33639" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 231.341 44.6761)" fill="#FFFAFA"/>
+<ellipse cx="1.03712" cy="2.95413" rx="1.03712" ry="2.95413" transform="matrix(-0.480581 0.876951 -0.854365 -0.519674 249.045 57.3182)" fill="#FFFAFA"/>
+<ellipse cx="1.4459" cy="3.6717" rx="1.4459" ry="3.6717" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 126.39 36.6)" fill="#FFFAFA"/>
+<ellipse cx="1.52824" cy="3.10975" rx="1.52824" ry="3.10975" transform="matrix(0.749218 0.662323 -0.623006 0.782217 126.875 50.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.12943" cy="2.9048" rx="1.12943" ry="2.9048" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 109.086 46.2478)" fill="#FFFAFA"/>
+<ellipse cx="221" cy="54.7478" rx="1" ry="2.5" transform="rotate(180 221 54.7478)" fill="#FFFAFA"/>
+<ellipse cx="1.25566" cy="2.69178" rx="1.25566" ry="2.69178" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 146 15.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.1317" cy="2.90097" rx="1.1317" ry="2.90097" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 107.088 31.2478)" fill="#FFFAFA"/>
+<ellipse cx="1.16633" cy="2.84252" rx="1.16633" ry="2.84252" transform="matrix(-0.480581 -0.876951 0.854365 -0.519674 127.121 19.2478)" fill="#FFFAFA"/>
+<rect x="70" y="82.0565" width="192" height="6.07826" rx="3" fill="#F22727"/>
+<path d="M264 81C264 72.1795 264 71.8848 234.552 70C214.242 71.8848 179.758 69.9659 154.838 71.8848C128.943 67.5671 111.173 73.8038 94.4175 71.8848C67 70 67.7339 72.1834 67 81H169.562H264Z" fill="#84B449"/>
+<defs>
+<filter id="filter0_d_6_11" x="0" y="26.2" width="333" height="142" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="33.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.633432 0 0 0 0 0.641667 0 0 0 0 0.229931 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_6_11"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_6_11" result="shape"/>
+</filter>
+</defs>
+</svg>
